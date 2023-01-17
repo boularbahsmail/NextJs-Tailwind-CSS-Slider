@@ -59,7 +59,7 @@ export default function Home() {
             <li className="text-md" title="Portfolio/Personal Website">
               <Link href="https://ismailium.vercel.app/" legacyBehavior>
                 <a target="_blank">
-                  <Image src="/ismail-boularbah.jpg" height={26} width={26} className="rounded-full" />
+                  <Image src="/ismail-boularbah.jpg" height={26} width={26} alt="Evil-Version" className="rounded-full" />
                 </a>
               </Link>
             </li>
