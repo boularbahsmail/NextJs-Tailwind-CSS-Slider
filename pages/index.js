@@ -19,12 +19,12 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="flex flex-col justify-center items-center md:h-screen h-full w-100 py-4 px-3">
+      <main className="flex flex-col justify-center items-center w-100 py-4 px-3">
         <div className="max-w-6xl w-full m-auto">
 
           {users?.map((user, index) => (
             user.id == currentIndex &&
-            <div className="userCard grid place-items-center gird-cols-1 md:grid-cols-2 gap-2 md:gap-4 w-full" key={index}>
+            <div className="userCard grid place-items-center gird-cols-1 md:grid-cols-2 gap-2 md:gap-4 w-full lg:py-20" key={index}>
               <div className="flex justify-center items-center overflow-hidden md:h-max min-h-96 h-max bg-gray-100">
                 <img src={user.avatar_url} alt="Card-Image" />
               </div>
